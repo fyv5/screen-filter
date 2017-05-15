@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">"@_@护眼"</string>
+    <string name="banner">•&#160;黑暗 -> 启用无色滤镜可进一步降低亮度\n•&#160;日常 -> 启用暖色系滤镜可抗蓝光</string>
+    <string name="brightness">屏幕亮度</string>
+    <string name="transparency">滤镜浓度</string>
+    <string name="filter_color">滤镜颜色</string>
+    <string name="auto_filter">自动滤镜</string>
+    <string name="keep_screen_on">屏幕常亮</string>
+    <string name="is_off">滤镜未激活 (˘•_•˘)</string>
+    <string name="is_on">滤镜已激活 ( •̀ᴗ•́)و</string>
+    <string name="restore">重置</string>
+    <string name="auto_brightness">自动</string>
+    <string name="license">第三方开源许可</string>
+    <string name="feedback">邮件反馈</string>
+    <string name="about">关于</string>
+    <string name="positive">确定</string>
+    <string name="brief_introduction">轻量级护眼项目</string>
+    <!--<string name="gitHub_src_address">https://github.com/hwding/screen-filter/tree/master/app/src/main</string>-->
+    <string name="source_code">毕设项目：@_@护眼</string>
+    <string name="update_log">作者：西安电子科技大学 13030120012 李璐</string>
+    <!--<string name="gitHub_readme_address">https://github.com/hwding/screen-filter/blob/master/README.md</string>-->
+    <string name="action_settings">Settings</string>
+    <!-- Licenses -->
+    <string name="ColorSeekBar_title">ColorSeekBar (Modified)</string>
+    <string name="ColorSeekBar_license">DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\nVersion 2, December 2004\nCopyright © 2004 Leon Fu [rtugeek@gmail.com]\nEveryone is permitted to copy and distribute verbatim or modified\ncopies of this license document, and changing it is allowed as long as the name is changed.\nDO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n0. You just DO WHAT THE FUCK YOU WANT TO.</string>
+    <string name="CircleSeekBar_title">CircularSeekBar</string>
+    <string name="CircleSeekBar_license">Apache License 2.0</string>
+</resources>
