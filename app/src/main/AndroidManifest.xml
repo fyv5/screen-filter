@@ -41,6 +41,9 @@
             android:name="com.activity.TrainActivity"
             android:screenOrientation="landscape" />
 
+        <activity
+            android:name="com.activity.VisionActivity" />
+
         <service
             android:name="com.service.ScreenFilterService" />
 

@@ -35,6 +35,7 @@ import com.activity.AboutActivity;
 import com.activity.ExerciseActivity;
 import com.activity.StatisticActivity;
 import com.activity.TrainActivity;
+import com.activity.VisionActivity;
 import com.amastigote.darker.R;
 import com.jaredrummler.android.processes.AndroidProcesses;
 import com.model.DarkerNotification;
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
     public TextView tv_statistic;
     public TextView tv_exercise;
     public TextView tv_train;
+    public TextView tv_vision;
 
     public EditText et_limit;
     public Button bt_ensure;
@@ -134,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
         tv_statistic = (TextView) findViewById(R.id.statistic);
         tv_exercise = (TextView) findViewById(R.id.exercise);
         tv_train = (TextView) findViewById(R.id.train);
+        tv_vision = (TextView) findViewById(R.id.vision);
         et_limit = (EditText) findViewById(R.id.editText1);
         bt_ensure = (Button) findViewById(R.id.ensure);
         bt_cancel = (Button) findViewById(R.id.cancel);
@@ -205,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        IntentFilter intentFilter = new IntentFilter();
+        final IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(DarkerNotification.PRESS_BUTTON);
         registerReceiver(broadcastReceiver, intentFilter);
 
@@ -337,6 +340,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, TrainActivity.class);
+                startActivity(intent);
+            }
+        });
+        tv_vision.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, VisionActivity.class);
                 startActivity(intent);
             }
         });

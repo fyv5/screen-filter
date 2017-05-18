@@ -55,6 +55,13 @@
             android:text="科学训练"
             android:textSize="15sp"
             android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/vision"
+            android:layout_height="60dp"
+            android:layout_width="wrap_content"
+            android:text="视力统计"
+            android:textSize="15sp"
+            android:textColor="#ffffff"/>
     </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>
